@@ -2,7 +2,7 @@
 This is the webpage for ECCV 2022 submission
 
 
-![](images/pipeline.png)
+![](resources/images/overview.png)
 
 
 ## Link
