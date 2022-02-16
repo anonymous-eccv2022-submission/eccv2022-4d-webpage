@@ -1,0 +1,199 @@
+
+<html>
+
+<head>
+    <link rel="StyleSheet" href="style.css" type="text/css" media="all">
+    <title>4D Compositional Representation</title>
+    <meta property="og:title" content="Joint Learning for 4D Reconstruction and Flow Estimation of Point Clouds">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+<body>
+    <br>
+    <div class="center-div">
+        <span style="font-size:40px">Joint Learning for 4D Reconstruction and Flow Estimation of Point Clouds</span>
+    </div>
+
+    <br>
+    <table align="center" width="800px">
+        <tbody>
+            <tr>
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px"><a href="http://tavu.student.ust.hk/">Tuan-Anh Vu</a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px"><a href="https://ducthanhnguyen.weebly.com/">Duc-Thanh Nguyen</a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px"><a href="https://sonhua.github.io/">Binh-Son Hua</a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px"><a href="https://pqhieu.github.io/">Quang-Hieu Pham</a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px"><a href="http://saikit.org/">Sai-Kit Yeung</a></span>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table align="center" width="700px">
+        <tbody>
+            <tr>
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px">The Hong Kong University of Science and Technology &nbsp; &nbsp; Deakin University &nbsp; &nbsp; VinAI Research &nbsp; &nbsp; Woven Planet North America, Level 5</span>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <table align="center" width="600px">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div">
+                        <a href="#"><img src="resources/images/overview.png" width="1000px"></a><br>
+                    </div>
+                    <div class="center-div">
+                            <span style="font-size:14px"><i>Overview of Our Joint Learning for 4D Reconstruction and Flow Estimation.</i></span>
+                    </div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br><br>
+    <hr>
+    <div class="center-div">
+        <h1>Abstract</h1>
+    </div>
+    <p style="text-align:justify">
+        Object reconstruction from 3D point clouds has achieved impressive progress in the computer vision and computer graphics fields. However, there is not much work to deal with time-varying point clouds (a.k.a. 4D point clouds). In this paper, we propose an architecture for jointly learning spatio-temporal representation for reconstruction of 4D point clouds and estimation of motion flows in the point clouds. The key idea is simultaneously learning spatial structures and temporal vector fields from a sequence of point clouds with the purpose that each task can complement the other, leading to the improved overall performance. The proposed framework can be adapted to both supervised learning and unsupervised learning. To prove this ability, we design a temporal vector field learning module using unsupervised learning approach for flow estimation, leveraged by supervised learning of spatial structures for object reconstruction. Extensive experiments and analyses on benchmark datasets validated the effectiveness and efficiency of the proposed method. As shown in experimental results, our method achieves state-of-the-art performance on both flow estimation and object reconstruction task while performing much faster than existing methods in both training and inference phase.
+    </p>
+    <br><br>
+
+
+    <hr>
+    <div class="center-div">
+        <h1 id="paper">Paper and Code</h1>
+    </div>
+    <table align="center" width="600px">
+
+        <tbody>
+            <tr>
+                <td>
+                    <img class="layered-paper-big" style="height:175px" src="resources/images/page1.png">
+                </td>
+                <td>
+                    <span style="font-size:14pt">Tuan-Anh, Vu and Duc-Thanh, Nguyen and Son-Hua, Binh and Quang-Hieu, Pham and Sai-Kit, Yeung</span>
+                    <br><br>
+                    <b><span style="display:inline-block;width:600px;font-size:14pt">Joint Learning for 4D Reconstruction and Flow Estimation of Point Clouds</span></b>
+                    <br><br>
+                    <span style="font-size:14pt">ECCV 2022</span>
+                    <br><br>
+                    <span style="font-size:20px">
+                        <a href="https://arxiv.org/">[arXiv]</a> &nbsp; &nbsp;
+                        <a href="https://github.com/">[GitHub]</a> &nbsp; &nbsp;
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <hr>
+    <table align="center" width="980px">
+        <tbody>
+            <tr>
+                <td>
+                    <left>
+                        <div class="center-div">
+                            <h1>Video</h1>
+                        </div>
+                        <iframe width="956" height="538" src="https://www.youtube.com/embed/F-zYAPyAmWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </left>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+        <br><br>
+
+
+    <hr>
+    <div class="center-div">
+        <h1 id="code">Results</h1>
+    </div>
+    <div class="center-div" style="width:1100px">
+        <table align="center" width="1100px">
+            <tbody>
+                <tr>
+                    <td rowspan="2" style="height:90px;border-color:#8E8E8E;border-right-style:solid;border-width:1px">
+                        <div class="center-div">
+                            <img src="resources/images/4d_recons.gif" width="350px"><br>
+                        </div>
+                        <div class="center-div">
+                            <img src="resources/images/future.gif" width="350px"><br>
+                        </div>
+                    </td>
+                    <td rowspan="2" style="height:60px;border-color:#8E8E8E;border-right-style:solid;border-width:1px">
+                        <div class="center-div">
+                            <img src="resources/images/transfer.gif" width="350px"><br>
+                        </div>
+                    </td>
+                    <td rowspan="2">
+                        <div class="center-div">
+                            <img src="resources/images/temporal.gif" width="350px"><br>
+                        </div>
+                        <div class="center-div">
+                            <img src="resources/images/spatial.gif" width="350px"><br>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br><br>
+
+    <hr>
+    <table align="center" width="980px">
+        <tbody>
+            <tr>
+                <td>
+                    <left>
+                        <div class="center-div">
+                            <h1>Acknowledgements</h1>
+                        </div>
+                        <div class="center-div">
+                        Sai-Kit Yeung is the corresponding author. This work was supported in part by 
+                        The website is modified from this <a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">template</a>.
+                        </div>
+                    </left>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+
+
+</body>
+
+</html>
